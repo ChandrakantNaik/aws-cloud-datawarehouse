@@ -38,8 +38,8 @@ Build an ETL pipeline that extracts their data from S3, stages them in Redshift,
 ![AWS System Architecture digram](./static/aws-cdw-arch.jpg "AWS System Architecture"))
 
 ## Dimensional Model    
-    A Dimensionl Model (a.k.a Star Schema) is a data structure technique optimized for efficient data storage and retreival in a Data warehouse for report and analytics purpose. 
-    In a star schema, each dimension table is joined to the fact table through a foreign key relationship. This allows users to query the data in the fact table using attributes from the dimension tables
+A Dimensionl Model (a.k.a Star Schema) is a data structure technique optimized for efficient data storage and retreival in a Data warehouse for report and analytics purpose. 
+In a star schema, each dimension table is joined to the fact table through a foreign key relationship. This allows users to query the data in the fact table using attributes from the dimension tables
     
 ![Sparkify_datawarehouse digram](./static/project-1-data-model.jpg "Sparkify Datawarehouse diagram"))
 
