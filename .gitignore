@@ -1,0 +1,3 @@
+*.drawio
+*.ipynb_checkpoints
+aws.cfg
